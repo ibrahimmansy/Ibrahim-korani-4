@@ -123,7 +123,7 @@ ul {
     transition: 0.5s; 
 }
 
-#about  about-lan img:hover {
+#about .about-lan img:hover {
 transform: scale(1.1); 
 } 
 
