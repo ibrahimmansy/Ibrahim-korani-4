@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: arial,sans-serif;
+    scroll-behavior: smooth; 
 }
 
 a {
@@ -32,6 +33,7 @@ ul {
     width: 100%;
     border-bottom: 2px solid #ccc;
     padding: 1.5rem 2rem;
+    z-index: 1;
 }
 
 #home .nav-par nav {
@@ -118,8 +120,12 @@ ul {
     box-shadow: 3px 3px 3px rgba(0 0 0 / 0.2);
     width: 300px;
     padding: 10px;
-
+    transition: 0.5s; 
 }
+
+#about  about-lan img:hover {
+transform: scale(1.1); 
+} 
 
 #about .about-lan .css img {
     width: 334px;
