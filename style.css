@@ -99,7 +99,7 @@ ul {
     max-width: 500px;
     border-radius: 50%;
     border: 2px solid #ccc; 
-    margin: 0 auto; 
+    margin-left:-10px; 
 }
 /* start lan  */
 
