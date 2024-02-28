@@ -37,7 +37,7 @@ html {
 
 /* start header  */
 #home {
-    background: url(./images_1/bg-home.jpg) center center/cover no-repeat fixed;
+    background: url(bg-home.jpg) center center/cover no-repeat fixed;
     height: 100vh; 
 }
 
